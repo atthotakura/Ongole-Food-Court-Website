@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>OFC – Ongole Food Court | Choose Your Treat Before You Eat</title>
+  <meta name="description" content="Ongole Food Court (OFC) — Ongole's favourite spot for quick bites, burgers, pizza, mocktails and more. Open daily 10 AM – 10:30 PM. Order via WhatsApp." />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="Assets/logo.png" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       NAVIGATION
+  ════════════════════════════════════════════════════════════════════ -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo" aria-label="OFC Home">
+        <img src="Assets/logo.png" alt="OFC Ongole Food Court" />
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#order">Order via WhatsApp</a></li>
+        <li><a href="#find-us">Find Us</a></li>
+        <li><a href="#order" class="nav-cta">Order Now</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       HERO
+  ════════════════════════════════════════════════════════════════════ -->
+  <section id="hero">
+    <div class="hero-content">
+      <img src="Assets/logo.png" alt="OFC Logo" class="hero-logo" />
+
+      <h1>Ongole Food Court</h1>
+
+      <p class="hero-tagline">"Choose your treat before you eat"</p>
+      <p class="hero-sub">Burgers &nbsp;·&nbsp; Pizza &nbsp;·&nbsp; Mocktails &nbsp;·&nbsp; Desserts &amp; More — Open Daily 10 AM – 10:30 PM</p>
+
+      <div class="hero-buttons">
+        <a href="#order" class="btn btn-yellow">🛵 Order Now</a>
+        <a href="#menu"  class="btn btn-outline">View Menu</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       ABOUT
+  ════════════════════════════════════════════════════════════════════ -->
+  <section id="about">
+    <div class="container about-centered">
+
+      <div class="text-center">
+        <span class="section-label">About OFC</span>
+        <h2 class="section-title">
+          Ongole's Favourite <span style="color:var(--red)">Food Hangout</span>
+        </h2>
+        <div class="yellow-bar"></div>
+      </div>
+
+      <div class="about-body">
+        <p>
+          OFC – Ongole Food Court is the neighbourhood go-to for quick bites and comfort food
+          that never disappoints. Whether you're grabbing a meal with family, catching up with
+          college friends, or satisfying a late-night craving, OFC has you covered.
+        </p>
+        <p>
+          From flame-grilled burgers and crispy chicken to stone-baked pizzas, refreshing
+          mocktails, and indulgent desserts — every visit is a new treat. Come in, sit back,
+          and let the food do the talking.
+        </p>
+
+        <div class="stats-row">
+          <div class="stat">
+            <span class="number">3.8★</span>
+            <span class="label">Google Rating</span>
+          </div>
+          <div class="stat">
+            <span class="number">1,100+</span>
+            <span class="label">Happy Visitors</span>
+          </div>
+          <div class="stat">
+            <span class="number">₹1–600</span>
+            <span class="label">Per Person</span>
+          </div>
+          <div class="stat">
+            <span class="number">12.5 hrs</span>
+            <span class="label">Open Daily</span>
+          </div>
+        </div>
+
+        <a href="#menu" class="btn btn-red">Explore the Menu →</a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       MENU
+  ════════════════════════════════════════════════════════════════════ -->
+  <section id="menu">
+    <div class="container">
+      <div class="text-center" style="margin-bottom:3rem;">
+        <span class="section-label">What We Serve</span>
+        <h2 class="section-title">Our Menu</h2>
+        <div class="yellow-bar"></div>
+        <p class="section-subtitle">
+          From quick combos to full meals — there's something for everyone at OFC.
+        </p>
+      </div>
+
+      <div class="menu-grid">
+
+        <!-- OFC Special Treats — featured card -->
+        <div class="menu-card featured">
+          <img src="Assets/menu.png" alt="OFC Special Treats — Combo Meals" loading="lazy" />
+          <div class="menu-card-body">
+            <h3>OFC Special Treats</h3>
+            <p>Our bestselling combo deals — burger, fries &amp; drink all-in-one.</p>
+            <span class="price-tag">Combos from ₹130</span>
+          </div>
+        </div>
+
+        <!-- ALA Carte -->
+        <div class="menu-card">
+          <img src="Assets/menu3.png" alt="ALA Carte — Burgers, Wraps, Chicken" loading="lazy" />
+          <div class="menu-card-body">
+            <h3>ALA Carte</h3>
+            <p>Burgers, wraps, chicken strips, nuggets &amp; more — veg and non-veg.</p>
+            <span class="price-tag">From ₹90</span>
+          </div>
+        </div>
+
+        <!-- Pizzas -->
+        <div class="menu-card">
+          <img src="Assets/menu4.png" alt="Pizzas — Veg and Chicken" loading="lazy" />
+          <div class="menu-card-body">
+            <h3>Pizzas</h3>
+            <p>Veg, Paneer, Chicken &amp; BBQ pizzas — freshly baked to order.</p>
+            <span class="price-tag">From ₹140</span>
+          </div>
+        </div>
+
+        <!-- Beverages -->
+        <div class="menu-card">
+          <img src="Assets/menu2.png" alt="Coffee, Mocktails and Milkshakes" loading="lazy" />
+          <div class="menu-card-body">
+            <h3>Coffee, Mocktails &amp; Milkshakes</h3>
+            <p>Caramel Mojito, Mango Shake, Cold Coffee &amp; plenty more to sip on.</p>
+            <span class="price-tag">From ₹50</span>
+          </div>
+        </div>
+
+        <!-- Desserts -->
+        <div class="menu-card">
+          <img src="Assets/menu5.png" alt="Desserts, Brownies and Ice Cream" loading="lazy" />
+          <div class="menu-card-body">
+            <h3>Desserts &amp; Brownies</h3>
+            <p>Single scoops, sundaes, rich brownies — the perfect sweet finish.</p>
+            <span class="price-tag">From ₹80</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       SPECIAL TREAT BANNER
+  ════════════════════════════════════════════════════════════════════ -->
+  <section id="special">
+    <div class="special-inner">
+      <span class="section-label section-label-light">Don't Just Dream It</span>
+      <h2 class="section-title" style="color:var(--white); margin-bottom:0.5rem;">
+        Eat It In OFC
+      </h2>
+      <p class="section-subtitle" style="color:rgba(255,255,255,0.75); margin:0.5rem auto 2rem;">
+        Free delivery available. Drop us a WhatsApp message and get OFC
+        delivered straight to your door.
+      </p>
+      <img src="Assets/slogan.png" alt="Don't dream it, eat it in OFC" class="special-img" loading="lazy" />
+      <a href="#order" class="btn btn-yellow">🛵 Order Now</a>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       ORDER VIA WHATSAPP
+  ════════════════════════════════════════════════════════════════════ -->
+  <section id="order">
+    <div class="container">
+      <div class="text-center" style="margin-bottom:2.5rem;">
+        <span class="section-label">Order from Home</span>
+        <h2 class="section-title">Order via WhatsApp</h2>
+        <div class="yellow-bar"></div>
+        <p class="section-subtitle">
+          Skip the queue — send us a WhatsApp message and we'll get your order
+          ready for delivery or pickup.
+        </p>
+      </div>
+
+      <div class="whatsapp-cta">
+        <a href="https://wa.me/918592222009?text=Hi%20OFC%2C%20I'd%20like%20to%20place%20an%20order!"
+           target="_blank" rel="noopener noreferrer"
+           class="whatsapp-card" aria-label="Order OFC on WhatsApp">
+          <span class="whatsapp-icon">💬</span>
+          <div class="whatsapp-text">
+            <h3>Chat with us on WhatsApp</h3>
+            <p class="whatsapp-number">085922 22009</p>
+            <p class="whatsapp-note">Tap to open a chat — we'll take it from there.</p>
+          </div>
+          <span class="whatsapp-btn">Message Us →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       FIND US
+  ════════════════════════════════════════════════════════════════════ -->
+  <section id="find-us">
+    <div class="container">
+      <div class="text-center" style="margin-bottom:3rem;">
+        <span class="section-label">We're Easy to Find</span>
+        <h2 class="section-title">Visit Us</h2>
+        <div class="yellow-bar"></div>
+      </div>
+
+      <div class="find-us-grid">
+
+        <div class="info-block">
+
+          <div class="info-item">
+            <div class="info-icon">📍</div>
+            <div class="info-text">
+              <h4>Address</h4>
+              <p>D.No. 7-5-47(4), Mangamuru Rd,<br />
+                 beside Damodara Public School,<br />
+                 Donka, Ongole,<br />
+                 Andhra Pradesh – 523002</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">🕙</div>
+            <div class="info-text">
+              <h4>Opening Hours</h4>
+              <p>Open Every Day<br />
+                 <strong>10:00 AM – 10:30 PM</strong></p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">📞</div>
+            <div class="info-text">
+              <h4>Phone</h4>
+              <a href="tel:+918592222009">085922 22009</a>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">🍽️</div>
+            <div class="info-text">
+              <h4>Dining Options</h4>
+              <p>Dine-in &nbsp;·&nbsp; Takeaway &nbsp;·&nbsp; Delivery<br />
+                 No-contact delivery available</p>
+            </div>
+          </div>
+
+          <a href="https://www.google.com/maps?q=OFC+Ongole+Food+Court,+Mangamuru+Rd,+Donka,+Ongole,+Andhra+Pradesh+523002"
+             target="_blank" rel="noopener noreferrer"
+             class="btn btn-red map-cta">
+            📍 Open in Google Maps
+          </a>
+
+        </div>
+
+        <div class="map-wrapper">
+          <iframe
+            src="https://maps.google.com/maps?q=OFC+Ongole+Food+Court,+Mangamuru+Rd,+Donka,+Ongole,+Andhra+Pradesh+523002&output=embed"
+            title="OFC Ongole Food Court on Google Maps"
+            allowfullscreen
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════════════════════════════════ -->
+  <footer>
+    <div class="footer-logo">
+      <img src="Assets/logo.png" alt="OFC – Ongole Food Court" />
+    </div>
+
+    <nav class="footer-links" aria-label="Footer navigation">
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#order">Order via WhatsApp</a>
+      <a href="#find-us">Find Us</a>
+      <a href="https://wa.me/918592222009" target="_blank" rel="noopener noreferrer">085922 22009</a>
+    </nav>
+
+    <div class="footer-divider"></div>
+
+    <p class="footer-credit">
+      Made with <span class="heart">❤️</span> by
+      <a href="mailto:at.thotakura@gmail.com">Arjun Thotakura</a><br />
+      <a href="mailto:at.thotakura@gmail.com">at.thotakura@gmail.com</a>
+    </p>
+
+    <p class="footer-bottom">
+      © 2025 Ongole Food Court. All rights reserved.
+    </p>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
